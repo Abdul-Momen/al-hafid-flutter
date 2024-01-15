@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Theme applied to the Android Window while the process is starting when the OS's Dark Mode setting is on -->
+    <style name="LaunchTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <!-- Show a splash screen on the activity. Automatically removed when
+             the Flutter engine draws its first frame -->
+        <item name="android:windowBackground">@drawable/launch_background</item>
+
+    </style>
+    <!-- Theme applied to the Android Window as soon as the process has started.
+         This theme determines the color of the Android Window while your
+         Flutter UI initializes, as well as behind your Flutter UI while its
+         running.
+
+         This Theme is only used starting with V2 of Flutter's Android embedding. -->
+
+    <style name="NormalTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:windowBackground">?android:colorBackground</item>
+    </style>
+    // to override colors
+    <color name="payment_sdk_primary_color">#ff5000</color>
+    <color name="payment_sdk_secondary_color">#FF5000</color>
+    <color name="payment_sdk_primary_font_color">#111112</color>
+    <color name="payment_sdk_secondary_font_color">#F44336</color>
+    <color name="payment_sdk_separators_color">#FFC107</color>
+    <color name="payment_sdk_stroke_color">#AA9DBF</color>
+    <color name="payment_sdk_button_text_color">#fff</color>
+    <color name="payment_sdk_title_text_color">#000</color>
+    <color name="payment_sdk_button_background_color">#ff5000</color>
+    <color name="payment_sdk_background_color">#F9FAFD</color>
+    <color name="payment_sdk_card_background_color">#F9FAFD</color>
+
+    // to override dimens
+    <dimen name="payment_sdk_primary_font_size">17sp</dimen>
+    <dimen name="payment_sdk_secondary_font_size">15sp</dimen>
+    <dimen name="payment_sdk_separator_thickness">1dp</dimen>
+    <dimen name="payment_sdk_stroke_thickness">.5dp</dimen>
+    <dimen name="payment_sdk_input_corner_radius">8dp</dimen>
+    <dimen name="payment_sdk_button_corner_radius">8dp</dimen>
+</resources>
+

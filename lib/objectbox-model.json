@@ -1,0 +1,73 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:5331555853424399734",
+      "lastPropertyId": "9:2888827785768193004",
+      "name": "WishlistModel",
+      "flags": 2,
+      "properties": [
+        {
+          "id": "1:8969104046396184391",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:2975208203055725851",
+          "name": "title",
+          "type": 9
+        },
+        {
+          "id": "3:4689096597864441609",
+          "name": "status",
+          "type": 9
+        },
+        {
+          "id": "4:6485736205751774824",
+          "name": "image",
+          "type": 9
+        },
+        {
+          "id": "5:7204826950606498672",
+          "name": "price",
+          "type": 9
+        },
+        {
+          "id": "6:4038533872750523679",
+          "name": "stock",
+          "type": 9
+        },
+        {
+          "id": "7:7820495269663763252",
+          "name": "isFavorite",
+          "type": 1
+        },
+        {
+          "id": "8:8365068255568493236",
+          "name": "adminGraphQlapiId",
+          "type": 9
+        },
+        {
+          "id": "9:2888827785768193004",
+          "name": "quantity",
+          "type": 6
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "1:5331555853424399734",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
